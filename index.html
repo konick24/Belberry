@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-
-</body>
+  </head>
+  <body class="page-body">
+    <header class="page-header">
+      <nav class="page-header__nav nav">
+        <a class="nav__logo logo">
+          <img class="logo__title" src="./image/logo.svg" width="150" height="54" alt="Medical Technologies">
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item submenu">
+            <details class="submenu-select">
+              <summary class="submenu-button">О нас</summary>
+              <ul class="submenu__list">
+                <li class="submenu__item">
+                  <a class="nav__link" href="#">Отзывы</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="nav__link" href="#">Новости</a>
+                </li>
+                <li class="submenu__item">
+                  <a class="nav__link" href="#">Сотрудничество</a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Услуги</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Врачи</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Акции</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Диагностика</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Анализы</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Пациентам</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Контакты</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="#">
+              <svg class="link__button" aria-hidden="true" focusable="false" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                <path d="M11 19c-4.42 0-8-3.59-8-8 0-4.42 3.58-8 8-8 4.41 0 8 3.58 8 8 0 4.41-3.59 8-8 8Zm10 2-4.3-4.3" stroke="#222" stroke-linejoin="round" stroke-linecap="round"/>
+              </svg>
+              <span class="visually-hidden">Поиск</span>
+            </a>
+          </li>
+        </ul>
+        <div class="nav__info info">
+          <span class="info__tel">+7 911 210 02 87</span>
+          <span class="info__schedule">Ежедневно 8:00 - 20:00</span>
+          <a class="info__user user" href="#">
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 13c-2.77 0-5-2.24-5-5 0-2.77 2.23-5 5-5 2.76 0 5 2.23 5 5 0 2.76-2.24 5-5 5Zm8 8a8 8 0 0 0-2.35-5.66A7.985 7.985 0 0 0 12 13m0 0a7.99 7.99 0 0 0-8 8" stroke="#222" stroke-linejoin="round" stroke-linecap="round"/>
+            </svg>
+            <span class="visually-hidden">User</span>
+          </a>
+          <button class="nav__button button">
+            <span class="button__text">Записаться</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
