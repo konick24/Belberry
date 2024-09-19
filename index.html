@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <title>Document</title>
   </head>
   <body class="page-body">
@@ -73,5 +76,67 @@
         </div>
       </nav>
     </header>
+    <main class="page-main">
+      <section class="page-main__header promo">
+        <h1 class="visually-hidden">Medical Technologies</h1>
+        <h2 class="promo__heading">Ваше здоровье в надежных руках</h2>
+        <p class="promo__text">Создаем комфортные условия для вашего лечения и восстановления, обеспечивая максимальную эффективность и удобство на каждом этапе.</p>
+        <button class="promo__button button">Записаться</button>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">слайд 1слайд 1слайд 1слайд 1слайд 1слайд 1слайд 1слайд 1</div>
+            <div class="swiper-slide">слайд 2слайд 1слайд 1слайд 1слайд 1слайд 1слайд 1слайд 1</div>
+            <div class="swiper-slide">слайд 3слайд 1слайд 1слайд 1слайд 1слайд 1слайд 1слайд 1</div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="page-main__section info">
+        <article class="info__details">
+          <h2 class="visually-hidden">Общая информация</h2>
+          <span class="info__heading">Добро пожаловать в сеть клиник «Медицинские Технологии»</span>
+          <p class="info__text">
+            Медицинский центр "Medical Technologies" в Санкт-Петербурге предлагает широкий спектр высококачественных медицинских услуг.
+            Мы используем передовые технологии и новейшее оборудование для точной диагностики и эффективного лечения. Наши опытные специалисты,
+            обладающие многолетним опытом, обеспечивают индивидуальный подход к каждому пациенту.
+          </p>
+          <a class="info__link" href="#">Узнать больше о клинике</a>
+          <img class="info__img" src="./image/info.png">
+        </article>
+        <article class="info__advantages advantages">
+          <dl class="advantages__list">
+            <dt class="advantages__title">Онлайн-запись и доступ к результатам</dt>
+            <dd class="advantages__advantages">Внедрили систему онлайн-записи, благодаря которой вы можете выбрать желаемое время приема и специалиста</dd>
+            <dt class="advantages__title">Предварительные консультации</dt>
+            <dd class="advantages__advantages">Первичное обследование, позволяющее врачу оценить состояние пациента и определить шаги лечения или диагностики</dd>
+            <dt class="advantages__title">Централизованная информационная система</dt>
+            <dd class="advantages__advantages">Единая платформа для хранения и управления всеми данными о пациентах, медицинских записях и административных процессах.</dd>
+            <dt class="advantages__title">Экспресс-диагностика</dt>
+            <dd class="advantages__advantages">Быстрое и эффективное обследование, позволяющее оперативно определить состояние здоровья пациента</dd>
+            <dt class="advantages__title">Оптимизированный маршрут пациентов</dt>
+            <dd class="advantages__advantages">Упорядоченный процесс перемещения пациентов между отделениями и специалистами</dd>
+            <dt class="advantages__title">Горячая линия для пациентов</dt>
+            <dd class="advantages__advantages">Круглосуточная телефонная служба, предоставляющая консультации и оперативную поддержку по медицинским вопросам.</dd>
+          </dl>
+        </article>
+      </section>
+      <section class="page-main__section help">
+        <h2 class="help__heading">Мы поможем вам</h2>
+        <p class="help__text">Атмосфера безопасности и эмпатии</p>
+        <article class="help__sections sections">
+          <nav class="sections__nav">
+            <ul class="sections__list">
+              <li class="sections__item">Специалисты</li>
+              <li class="sections__item">Диагностика</li>
+              <li class="sections__item">Анализы</li>
+              <li class="sections__item">Заболевания</li>
+            </ul>
+          </nav>
+        </article>
+      </section>
+    </main>
+    <script src="./js/app.js"></script>
   </body>
 </html>
